@@ -1,0 +1,133 @@
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family:'Poppins', sans-serif;;
+
+}
+
+header {
+	background: ;
+	padding: 30px 0;
+	background: #E51837;
+	margin-bottom: 50px;
+
+}
+
+img {
+	width: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul li {
+	list-style-type: none;
+	display: flex;
+}
+h1,h2,h3,h4 {
+	margin-bottom: 40px;
+}
+
+.red-text {
+	color: #E51837;
+}
+
+.white-text {
+	color: #fff;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.header-menu {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo {
+	width: 50px;
+	background: #fff;
+	padding: 8px;
+}
+
+.menu {
+	background: #E51837;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	font-weight: 500;
+	display: none;
+}
+
+.bar {
+	width: 30px;
+	background: #fff;
+	height: 3px;
+	margin: 5px;
+	cursor: pointer;
+}
+
+/**Slider**/ 
+
+.slider	{
+	background: #FAFAFA;
+	padding: 20px;
+	position: relative;
+}
+
+.slider .content h4 {
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.slider .content h1 {
+	font-size: 50px;
+	line-height: .8;
+}
+
+.slider .content a {
+	background: #000;
+	padding: 10px 40px;
+	text-transform: uppercase;
+}
+
+.button-slider {
+	display: flex;
+	position: absolute;
+    top: 96%;
+    left: 82%;
+}
+
+.slider-click {
+	width: 10px;
+	background: #E51837;
+	height: 10px;
+	margin-right:10px ;
+	border-radius: 100%;
+}
+
+.slider-click:nth-child(2){
+	background: transparent;
+	border: 1px solid #E51837;
+
+}
+
+
+@media	screen and (min-width: 1200px) {
+	.slider {
+		display: flex;
+		padding: 0px;
+	}
+
+	.slider .content h1 {
+		font-size: 100px;
+	}
+
+	.slider > div {
+		flex-basis: 100%;
+	}
+}
