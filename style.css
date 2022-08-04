@@ -16,11 +16,6 @@ header {
 	padding: 0px 20px;
 }
 
-
-section:nth-child(n+3) {
-	margin-bottom: 50px;
-}
-
 img {
 	width: 100%;
 }
@@ -47,6 +42,7 @@ h1 {
 
 h2,h3 {
 	font-size: 40px;
+	font-weight: 600;
 
 }
 
@@ -191,9 +187,128 @@ p {
 }
 
 .yum-burger .container {
-	background-image:linear-gradient(to bottom, #fff 20%, #E51837 10%);
+	background: #E51837;
 	padding-bottom: 20px;
+	box-shadow: 0px 0px 35px #CF1632;
 }
 
 
+/**********************box number style************************************/
 
+.number-features {
+	display: flex;
+	width: 80%;
+	margin: 0px auto;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+
+.number-features > div {
+	width: 400px ;
+}
+
+.narrow {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.header-title {
+	margin-left: 80px;
+	margin-bottom: 100px;
+
+}
+
+.number-features h4 {
+	margin: 0px;
+}
+
+.number-features a {
+	font-weight: bold;
+}
+
+.box {
+    height: 400px;
+    margin: 0px 0px 40px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.ring {
+	border: solid 3px #EB5168;
+	border-radius: 100%;
+	height: 300px;
+	width: 300px;
+}
+
+ .number-features-row .box3 .ring  {
+	border: solid 2px rgba(#000, .2) !important;
+}
+
+.box1 {
+	background-image: url("Images/Number-building.png");
+	background-color: #000000d1;
+	background-blend-mode: overlay;
+}
+
+.box3 {
+	background-image: url("Images/box2-bg.png");
+	background-color: #E51837;
+	background-blend-mode: overlay;
+}
+
+
+.box4 {
+	background-image: url("Images/Number-building.png");
+	background-color: #000000d1;
+	background-blend-mode: overlay;
+}
+
+.number-section {
+	background: url("Images/human-burger.png");
+	background-repeat: no-repeat;
+	background-position-y: bottom;
+}
+
+
+/**********************box number style************************************/
+.tacco-section {
+	display: flex;
+	background-color: #E21936;
+	width: 88%;
+	flex-wrap: wrap;
+}
+
+.tacco-section > div {
+	flex-basis: 48%;
+}
+
+.tacco-features {
+	padding: 100px 0px;
+}
+
+.tacco-section h2{
+	font-size: 80px;
+}
+
+.tacco-section img {
+	height: 430px;
+	width: 600px;
+}
+
+.tacco-images {
+	display: flex;
+	align-items: flex-end;
+}
+
+.tacco-section a {
+	color: #fff;
+	font-weight: bold;
+}
