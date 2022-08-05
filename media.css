@@ -1,8 +1,8 @@
 @media screen and (min-width: 1450px) {
 	h2 {
 		font-size: 100px;
-		max-width:1000px;
 	}
+	
 	h4 {
 		font-size: 50px;
 		font-weight: 600;
@@ -144,6 +144,8 @@
 		margin-top: 150px;
 	}
 
+	
+
 }
 
 @media screen and (min-width: 1200px) {
@@ -199,12 +201,20 @@
 		
 	}
 
+/**********************tacco style************************************/
+
 }
+
+
+
 
 @media screen and (min-width: 480px) {
 	h1 {
 		font-size: 80px;
 	}
+
+
+
 	/**********************box number style************************************/
 
 }

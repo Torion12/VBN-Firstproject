@@ -23,6 +23,7 @@ img {
 a {
 	text-decoration: none;
 	color: #000;
+	font-weight: bold;
 	
 }
 
@@ -278,37 +279,103 @@ p {
 }
 
 
-/**********************box number style************************************/
+/**********************tacco number style************************************/
 .tacco-section {
+	max-width: 88%;
+	background: #E21936;
 	display: flex;
-	background-color: #E21936;
-	width: 88%;
 	flex-wrap: wrap;
+	margin-bottom: 100px;
 }
 
 .tacco-section > div {
-	flex-basis: 48%;
+	flex-basis: 50%;
 }
 
-.tacco-features {
-	padding: 100px 0px;
+.tacco-section h2 {
+	font-size: 70px;
+	margin-bottom: 30px;
+	font-weight: 600;
 }
 
-.tacco-section h2{
-	font-size: 80px;
+.tacco-title {
+	padding: 100px 100px 100px 0px;
 }
 
-.tacco-section img {
-	height: 430px;
-	width: 600px;
-}
-
-.tacco-images {
+.tacco-images{
 	display: flex;
 	align-items: flex-end;
 }
 
-.tacco-section a {
-	color: #fff;
-	font-weight: bold;
+.tacco-section img {
+	height: 70%;
+	width: 80%;
 }
+
+.tacco-title span{
+	color: #E21936;
+	
+
+}
+
+
+/**********************tacco burger number style************************************/
+.tacco-bruger {
+	background-image: url(Images/tacco2-bg.png);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+    background-size: 903px;
+	padding: 100px 0px;
+
+}
+.discription {
+	width: 50%;
+	margin-bottom: 100px;
+}
+
+.button-next {
+	width: 30%;
+	height: 100px;
+	position: relative;
+	display: flex;
+}
+
+.button-next > div {
+	width: calc(100%/2);
+	height: 100%;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	background: #B50A37;
+
+}
+
+.button-next > div:first-child {
+	background: #E51837;
+}
+
+.button-next img {
+	width:20%;
+	height: auto;
+	bottom:-10px;
+	position: absolute;
+	left: 42%;
+	right: 50%;
+
+}
+
+.button-next a {
+	font-size: 40px;
+	color: #fff;
+}
+
+/**********************strategic burger number style************************************/
+.two-row {
+	display: flex;
+}
+
+.two-row {
+	
+}
+
