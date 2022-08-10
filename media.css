@@ -1,12 +1,16 @@
-@media screen and (min-width: 1450px) {
+
+
+@media screen and (min-width: 1000px) {
+
 	h2 {
 		font-size: 100px;
 	}
-	
 	h4 {
 		font-size: 50px;
 		font-weight: 600;
 	}
+
+
 	.navigation {
 		position: absolute;
 		right: 80px;
@@ -97,6 +101,7 @@
 		font-size: 100px;
 		font-weight: 600;
 		max-width:1000px;
+
 	}
 	.features h2:last-child{
 		padding-left: 50px;
@@ -144,11 +149,150 @@
 		margin-top: 150px;
 	}
 
-	
+
+	/**********************map style************************************/
+	.map-container {
+		display: flex;
+	}
+
+	.map-container > * {
+		flex-basis: 100%;
+	}
+
+
+	/************map***************/
+
+img.map-image {
+        position: absolute;
+    object-fit: fill;
+    top: 35%;
+    z-index: 1;
+    height: 52%;
+    width: 80%;
+   
+}
+
+section.map-gradient {
+    height: 120vh;
+    padding-bottom: 0px;
+}
+
+.map-container {
+    height: 100%;
+}
+
+.map-gradient .map-container {
+	position: relative;
+}
+
+.map-gradient h2 {
+    font-size: 5em;
+    width: 80%;
+    margin: 0px auto;
+    padding: 100px 0px;
+}
+
+
+.map-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.map-inner-box button {
+    border-radius: 50px;
+    padding: 10px 35px 10px 35px;
+    border: none;
+    font-size: 22px;
+    background: #fff;
+    margin-top: 20px;
+    color: #E51837;
+}
+
+.map-discreption {
+    padding: 100px 0px;
+}
+
+.map-box-flex {
+    display: flex;
+    gap: 10px;
+    z-index: 3;
+}
+
+.map-button {
+	width: 20%;
+	z-index: 3;
+}
+
+.map-submenu ul {
+    display: block;
+}
+
+.map-submenu ul li {
+    font-size: 13px;
+    color: #fff;
+}
+
+.map-submenu ul li:before {
+    content: "- ";
+}
+.map-menu h4 {
+	color: #fff;
+	margin-bottom: 30px;
+}
+
+.map-button {
+    width: 40%;
+}
+
+.map-button a {
+    font-size: 50px;
+}
+
+.map-button .next,.map-button .prev {
+	font-size: 50px;
+}
+
+.map-button .image-button {
+	width: 116px;
+}
+
+.map-submenu ul {
+    position: relative;
+    left: -40px;
+}
+
+.map-button {
+    width: 40%;
+    left: 400px;
+}
+
+.map-gradient .map-row {
+	margin-bottom: 0px;
+}
+
+.map-menu {
+    padding-bottom: 30px;
+    z-index: 3;
+}
 
 }
 
+
+
+@media screen and (max-width: 1450px){
+	.business-row{
+		flex-wrap: wrap;
+		
+	}
+
+	.business-col {
+		flex-grow: 1;
+	}
+}
+
 @media screen and (min-width: 1200px) {
+
 	img {
 	    width: 100%;
 	    height: 100%;
@@ -201,12 +345,21 @@
 		
 	}
 
-/**********************tacco style************************************/
+/**********************Location style************************************/
+
+
+
+
 
 }
 
 
+@media screen and (max-width: 900px) {
+	section:nth-child(4) {
+		padding: 0px 20px;
+	}
 
+}
 
 @media screen and (min-width: 480px) {
 	h1 {
@@ -215,6 +368,66 @@
 
 
 
+
+
 	/**********************box number style************************************/
 
+}
+
+
+
+@media screen and (max-width: 1300px) {
+	.business-growth img {
+    width: 500px;
+}
+
+.business .business-growth h2 {
+    font-size: 2em;
+}
+}
+
+@media screen and (max-width: 999px) {
+
+	.banner {
+		padding: 30px;
+		margin-bottom: 200px;
+	}
+
+	.burger-header {
+    font-size: 3.4em;
+	}
+
+	.burger-header a {
+    font-size: 20px;
+	}
+
+	.container.yum-burger-row {
+    position: relative;
+    padding: 100px 30px;
+}
+
+.burger-images {
+    position: absolute;
+    top: -36%;
+    width: 500px;
+    right: 50%;
+    left: 50%;
+    transform: translate(-50%,1px);
+}
+
+}
+
+
+@media screen and (max-width: 1400px){
+		.features h2 {
+		font-size: 85px;
+	}
+	
+}
+
+@media screen and (max-width: 1500px) {
+	.burger-images {
+    width: 600px;
+    bottom: 0;
+}
 }

@@ -14,6 +14,7 @@ header {
 	width: 80%;
 	margin: 0 auto;
 	padding: 0px 20px;
+	height: 100%;
 }
 
 img {
@@ -371,11 +372,187 @@ p {
 }
 
 /**********************strategic burger number style************************************/
+.strategic-section {
+    height: 100vh;
+    background: #B50A37;
+    padding-top: 200px;
+    display: none;
+}
+
+.header-text1 {
+	margin-bottom: 80px;
+}
+
 .two-row {
 	display: flex;
 }
 
-.two-row {
-	
+.two-column {
+	width: 50%;
 }
 
+.two-column:nth-child(2)  {
+	display: flex;
+	position: relative;
+}
+
+.arrow {
+	display: flex;
+	align-items: flex-end;
+	width: 8%;
+}
+
+.arrow a {
+	font-size: xxx-large;
+	position: relative;
+	bottom: -20px;
+	color: #fff;
+}
+
+.text {
+	width: 92%;
+	color: #fff;
+}
+
+
+.strategic-images {
+	display: flex;
+	flex-wrap: wrap;
+	position: absolute;
+	width: 50%;
+}
+
+.strategic-images img {
+	max-width: 320px;
+	margin: 4px;
+}
+
+.car {
+	height: 80vh;
+}
+
+.car img {
+	height: 100%;
+}
+
+/**********************map number style************************************/
+
+.map-gradient {
+	background-image: linear-gradient(to right, transparent 45%, #E51837 40%);
+	padding: 40px 0px; 
+	margin-bottom: 100px;
+}
+
+.map-gradient h2{
+	font-size: 3.5em;
+	margin-bottom: 40px;
+}
+
+.map-gradient h4 {
+	font-size: 3em;
+	margin: 0px;
+	color: #fff;
+}
+
+.map-gradient .map-row {
+	margin-bottom: 30px;
+}
+
+.map-gradient .map-container {
+	width: 90%;
+	margin: auto;
+}
+
+.map-gradient .map-container .map-box {
+	background: #E51837;
+	margin-bottom: 20px;
+}
+
+.map-gradient .map-container .map-box:nth-child(2){
+	background:#B50A37 ;
+}
+
+.map-gradient .map-container .map-box .map-inner-box {
+	width: 80%;
+	margin: auto;
+	padding: 30px 0px;
+}
+
+.map-image {
+	width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: fill;
+
+}
+
+.map-button {
+	display: flex;
+	position: relative;
+	width: 80%;
+	margin-top: 40px;
+}
+
+.map-button .image-button {
+	width: 70px;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	right: 50%;
+	
+
+}
+
+.map-button .next {
+	background: #B50A37;
+	width: 50%;
+	font-size: 30px;
+	text-align: center;
+	color: #fff;
+}
+
+.map-button .prev {
+	background: #E51837;
+	width: 50%;
+	text-align: center;
+	font-size: 30px;
+	color: #fff;
+}
+
+.map-menu h4{
+	color: #000;
+	margin-top: 30px;
+}
+
+/**********Business growth**************/
+.business {
+	padding: 0px 0px 100px 190px;
+
+}
+
+.business-growth {
+	display: flex;
+	align-items: center;
+
+
+}
+
+.business .business-growth h2 {
+	max-width: 65%;
+	font-size: 5.5em;
+	background: #fff;
+	vertical-align: center:
+}
+
+.business-row {
+    display: flex;
+    padding-right: 50px;
+}
+
+.business-row > div {
+    width:450px;
+   
+}
+
+.business-row > div:not(:last-child){
+	padding-right: 100px; 
+}
