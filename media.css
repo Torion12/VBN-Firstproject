@@ -431,3 +431,134 @@ section.map-gradient {
     bottom: 0;
 }
 }
+
+
+@media (max-width: 800px) {
+	.business-growth {
+    flex-direction: column-reverse;
+}
+
+
+.business-growth img {
+    width: 100%;
+    aspect-ratio: 1/1;
+    /* height: 300px; */
+}
+
+
+.business .business-growth h2 {
+    max-width: 100% !important;
+    font-size: 2.5em;
+}
+
+.business {
+	padding: 0px 0px 100px 40px;
+}
+}
+
+@media (max-width: 900px) {
+	.business {
+	padding: 0px 0px 100px 40px;
+}
+}
+
+@media (max-width: 600px){
+	.features h2 {
+    font-size: 50px;
+}
+
+.uneven {}
+
+section.banner {
+    margin-bottom: 300px;
+}
+
+section.tacco-bruger {
+    padding: 0px;
+}
+
+.discription {
+    width: 100%;
+}
+
+.burger-images {
+    width: 250px;
+    top: -60px;
+}
+}
+
+
+@media (max-width: 600px){
+	.tacco-title {
+    padding: 30px;
+}
+
+.tacco-section {
+    max-width: 100%;
+}
+
+.tacco-section h2 {
+	font-size: 40px;
+}
+
+.tacco-section img {
+	width: 100%;
+	height: 100%;
+}
+}
+
+@media (max-width: 1541px) {
+	.strategic-section {
+		height: 100%;
+
+	}
+
+	.strategic-images {
+		position: relative;
+	}
+
+	.arrow {
+    top: 249px;
+    position: absolute;
+    left: -70px;
+}
+}
+
+@media (max-width: 860px) {
+
+	.text a:before {
+    content: "←";
+    font-size: 37px;
+    position: absolute;
+    top: -20px;
+    left: 300px;
+}
+
+}
+
+
+
+
+@media (max-width: 786px){
+	.text a:before {
+		left: 200px;
+	}
+}
+
+@media(max-width: 774px) {
+	.two-row {
+    display: block;
+}
+
+.two-column {
+    width: 100%;
+}
+
+.text a:before {
+    content: "→";
+    left: -54px;
+}
+.strategic-images img {
+    max-width: 100%;
+}
+}

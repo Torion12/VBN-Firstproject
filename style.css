@@ -376,7 +376,7 @@ p {
     height: 100vh;
     background: #B50A37;
     padding-top: 200px;
-    display: none;
+    
 }
 
 .header-text1 {
@@ -388,6 +388,7 @@ p {
 }
 
 .two-column {
+	position: relative;
 	width: 50%;
 }
 
@@ -419,13 +420,30 @@ p {
 	display: flex;
 	flex-wrap: wrap;
 	position: absolute;
-	width: 50%;
+	width: 100%;
+
 }
 
 .strategic-images img {
-	max-width: 320px;
+	max-width: 300px;
 	margin: 4px;
+
 }
+
+.text a {
+    position: relative;
+}
+
+.text a:before {
+    content: "→";
+    font-size: 37px;
+    position: absolute;
+    top: -20px;
+    left: -40px;
+}
+
+
+
 
 .car {
 	height: 80vh;
@@ -546,6 +564,7 @@ p {
 .business-row {
     display: flex;
     padding-right: 50px;
+
 }
 
 .business-row > div {
@@ -555,4 +574,71 @@ p {
 
 .business-row > div:not(:last-child){
 	padding-right: 100px; 
+}
+
+
+/*************Footer**********************/
+
+footer {
+	background: #000;
+}
+
+footer .footer-row {
+	display: flex;
+
+}
+
+
+/*footer .footer-row .footer-col .Footer-logo {
+	width: 150px;
+	height: 150px;
+}*/
+
+.footer-row h2 {
+    font-size: 70px;
+}
+
+.footer-col:first-child {
+    display: flex;
+}
+.footer-row{ 
+	padding-top: 200px;
+	padding-bottom: 200px;
+}
+footer .footer-col-1{
+ width: 20%;
+ display: flex;
+ align-items: flex-start;
+ justify-content: center;
+}
+footer .footer-col-1 img{
+	width: 150px;
+	height: 150px;
+	margin: 0px auto;
+}
+footer .footer-row .footer-col-1 .Footer-logo {
+	width: 100%;
+}
+footer .footer-col-2{
+	width: 40%;
+}
+footer .footer-col-3{
+
+	background: red;
+	padding-right: 100px;
+	padding-left: 100px;
+}
+footer .footer-col-3 form input{
+	height: 35px;
+	padding-left: 15px;
+	margin: 1px;
+	border: none;
+}
+
+footer .footer-col-3 form input[type=submit], input[type=text], input[type=phone], input[type=email], input[type=time]{
+	
+	
+}
+footer .footer-col-3 form input[type=submit]{
+	
 }
