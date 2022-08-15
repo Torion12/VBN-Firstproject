@@ -289,6 +289,7 @@ section.map-gradient {
 	.business-col {
 		flex-grow: 1;
 	}
+
 }
 
 @media screen and (min-width: 1200px) {
@@ -381,6 +382,8 @@ section.map-gradient {
     width: 500px;
 }
 
+
+
 .business .business-growth h2 {
     font-size: 2em;
 }
@@ -436,8 +439,12 @@ section.map-gradient {
 @media (max-width: 800px) {
 	.business-growth {
     flex-direction: column-reverse;
+
 }
 
+.accordion-1 {
+	max-width: 100%;
+}
 
 .business-growth img {
     width: 100%;
@@ -460,6 +467,10 @@ section.map-gradient {
 	.business {
 	padding: 0px 0px 100px 40px;
 }
+
+
+
+
 }
 
 @media (max-width: 600px){
@@ -534,6 +545,9 @@ section.tacco-bruger {
     left: 300px;
 }
 
+
+
+
 }
 
 
@@ -561,4 +575,153 @@ section.tacco-bruger {
 .strategic-images img {
     max-width: 100%;
 }
+}
+
+
+@media (max-width: 1100px) {
+
+	.features h2 {
+	max-width: 605px;
+	font-size: 80px;
+}
+
+	footer .footer-row {
+		flex-wrap: wrap;
+	}
+
+	footer .footer-row .footer-col-1, footer .footer-row .footer-col-2, footer .footer-row .footer-col-3 {
+		width: 100%;
+	}
+
+	.footer-col-2 img {
+		position: static;
+		width: 50px;
+    	height: 50px;
+    	padding-right: 20px;
+
+	}
+
+	.footer-col-2 h2 {
+	font-size: 40px;
+	}
+
+	footer .footer-row .footer-col-3 {
+		width: 100%;
+		padding: 0px;
+	}
+}
+
+@media (max-width: 400px ){
+	.footer-col-2 h2{
+		font-size: 30px;
+	}
+}
+
+@media (max-width: 1400px){
+	.seeking-out h2 {
+		font-size: 70px;
+	}
+}
+
+@media (max-width: 1200px)
+{
+	.above-footer {
+		flex-wrap: wrap;
+	}
+
+
+}
+
+@media(max-width: 676px){
+	form input {
+		width: calc(100% / 1 - 33px);
+	}
+
+	.tacco-title > div {
+		width: 100%;
+	}
+
+
+	.seeking-out h2 {
+		font-size: 50px;
+	}
+
+	.seeking-out {
+		padding: 50px;
+	}
+
+	.header-title {
+		margin-left: 0px;
+	}
+}
+
+
+/*************************accordion *************************************/
+@media (max-width: 1000px) {
+	.card-flex {
+		flex-wrap: wrap;
+	}
+
+	.accordion-card {
+		margin-bottom: 20px;
+	}
+}
+
+@media (max-width: 1230px) {
+	.accordion-button {
+		display: block;
+	}
+
+	.accordion-button button {
+		padding: 10px 30px;
+	}
+}
+
+
+@media (max-width: 380px){
+	.accordion-search-bar input[type="text"] {
+		font-size: 12px;
+	}
+
+	.accordion-container p {
+		font-size: 12px;
+	}
+}
+
+@media (max-width: 850px){
+	.accordion-search-width {
+    width: 100%;
+}
+
+section.accordion-section {
+	background-position: top;
+}
+}
+
+@media (max-width: 999px){
+	.header-title {
+    margin-top: 100px;
+}
+
+.header-title h2 {
+    font-size: 60px;
+}
+}
+
+
+@media(max-width: 1000px){
+	.final-row {
+		display: block;
+		padding: ;
+	}
+}
+
+@media(max-width: 580px){
+
+}
+
+@media screen and (max-width: 320px){
+	h2 {
+		font-size: 10px;
+	}
 }

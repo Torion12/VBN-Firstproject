@@ -1,4 +1,4 @@
-body,p,h2,h1,h3{
+body,p,h2,h1,h3,h5{
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
@@ -581,64 +581,276 @@ p {
 
 footer {
 	background: #000;
+	padding: 200px 0px;
 }
 
 footer .footer-row {
 	display: flex;
+	width: 80%;
+	margin: auto;
+
 
 }
 
 
-/*footer .footer-row .footer-col .Footer-logo {
-	width: 150px;
-	height: 150px;
-}*/
-
-.footer-row h2 {
-    font-size: 70px;
+footer .footer-row .footer-col-2{
+	width: 50%;
+	display: flex;
+	position: relative;
 }
 
-.footer-col:first-child {
-    display: flex;
-}
-.footer-row{ 
-	padding-top: 200px;
-	padding-bottom: 200px;
-}
-footer .footer-col-1{
- width: 20%;
- display: flex;
- align-items: flex-start;
- justify-content: center;
-}
-footer .footer-col-1 img{
-	width: 150px;
-	height: 150px;
-	margin: 0px auto;
-}
-footer .footer-row .footer-col-1 .Footer-logo {
-	width: 100%;
-}
-footer .footer-col-2{
-	width: 40%;
-}
-footer .footer-col-3{
 
-	background: red;
-	padding-right: 100px;
+footer .footer-row .footer-col-3{
+	width: 50%;
 	padding-left: 100px;
-}
-footer .footer-col-3 form input{
-	height: 35px;
-	padding-left: 15px;
-	margin: 1px;
-	border: none;
+	
 }
 
-footer .footer-col-3 form input[type=submit], input[type=text], input[type=phone], input[type=email], input[type=time]{
-	
+.footer-col-2 img{
+	width:100px;
+	height: 100px;
+	position: absolute;
+	left: -135px;
 	
 }
-footer .footer-col-3 form input[type=submit]{
-	
+
+.footer-col-2 h2 {
+	font-size: 70px;
+}
+
+form input {
+	width: calc(100% / 2 - 33px);
+    border: none;
+    margin-bottom: 5px;
+    padding: 15px;
+
+}
+
+input[type="Submit"] {
+    width: 100%;
+    margin-top: 20px;
+    background: #B40938;
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+}
+
+input::placeholder {
+    color: #000;
+    font-family: 'Poppins';
+}
+
+.copyright .container{
+	margin-top: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.range {
+	width: 70%;
+	height: 1px;
+	background: #fff;
+}
+
+.copyright .container p {
+	font-size: 12px;
+	padding: 0;
+	margin-bottom: 0;
+}
+/*************************Footer above*************************************/
+
+.above-footer {
+	display: flex;
+	background: #E21936;
+}
+.above-footer > div {
+	flex-basis: 100%;
+}
+
+.seeking-out {
+	padding: 100px;
+}
+
+
+/*************************accordion *************************************/
+
+.accordion-container {
+    width: 60%;
+    margin: 0px auto;
+}
+
+.card-flex {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.accordion-card {
+    padding: 30px 40px;
+    box-shadow: 1px 1px 6px #e2193652;
+    border-radius: 10px;
+    flex-grow: 1;
+    margin-right: 10px;
+    background-color: #fff;
+}
+
+.accordion-card:hover {
+    border: 1px solid #ED7182;
+}
+
+section.accordion-section {
+    margin-top: 100px;
+    margin-bottom: 200px;
+    background-image: url(Images/Accordion.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: 460px;
+
+
+}
+
+
+
+.tacco-title > div {
+	background-color: #fff; height: 55px; color: #E21936; width: 500px;padding-top: 30px;
+}
+
+
+.accordion-search-width {
+    width: 80%;
+    background-color: #fff;
+}
+
+.accordion-search-bar input[type="text"] {
+    width: 100%;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.accordion-button {
+    display: flex;
+    justify-content: space-between;
+}
+
+.accordion-button button {
+    padding: 0px 30px;
+    border: none;
+    background: #E21936;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.accordion-body {
+    padding: 10px 30px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #e2193652;
+    margin-bottom: 20px;
+}
+
+.accordion {
+    margin-top: 30px;
+}
+
+.accordion-title {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+    font-size: 18px;
+}
+
+i.fa-solid.fa-minus {
+    color: #E21936;
+}
+
+
+/**************************************popcorn************/
+
+
+.popcorn-row {
+    display: grid;
+    grid-template-columns: 0.1fr 1fr .12fr;
+}
+
+.pop-corn2 {
+    background-image: url("Images/popcorn.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #000000d4;
+    background-blend-mode: multiply;
+    border-left: 30px solid #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.pop-corn1 {
+    background: linear-gradient(to top, #e21936 30%, #fff 30%);
+}
+
+.popcorn-images {
+   /* width: 500px;*/
+}
+
+
+.popcorn-bar {
+    width: 500px;
+    background: #fff;
+    color: #E21936;
+    padding: 5px 10px;
+    border-radius: 50px;
+    box-shadow: 0px 2px 26px -11px #e21936;
+    position: relative;
+    bottom: -14px;
+}
+
+.popcorn-bar input[type="text"] {width: 83%;border: none;padding: 10px;}
+
+
+.popcorn-bar button {
+    border: none;
+    border-radius: 100%;
+    background: #E21936;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 18px;
+    padding: 6px 6px;
+}
+/*****************************************Final Section******************************************************/
+.final-row {
+    width: 80%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0px;
+}
+
+.final-row .col2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.final-row h2 {
+    font-size: 75px;
+}
+
+.final-row > div {
+    flex-basis: 100%;
+}
+
+
+.final-row .col1 {
+    box-shadow: -500px 0px #b50a37;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
 }
